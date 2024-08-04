@@ -40,7 +40,7 @@ This repository contains the PaySky Task project, which is built using ASP.NET C
 ### Applications (Authorized for role Applicant)
 
 - **Create Application**
-  - Description: Create a new application. An applicant cannot send more than one application within 24 hours.
+  - Description: Create a new application.
 - **Search Applications**
   - Description: Search through applications.
 
