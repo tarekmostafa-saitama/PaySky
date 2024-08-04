@@ -1,0 +1,7 @@
+{
+  "LoggerSettings": {
+    "AppName": "PaySky",
+    "WriteToFile": true,
+    "StructuredConsoleLogging": false
+  }
+}

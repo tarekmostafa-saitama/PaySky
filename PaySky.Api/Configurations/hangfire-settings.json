@@ -1,0 +1,5 @@
+{
+  "UseHangfire": true,
+  "UseSeperateHangfireDb": false,
+  "DefaultHangFireConnection": ""
+}

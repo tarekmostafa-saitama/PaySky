@@ -1,0 +1,34 @@
+version: '3.4'
+
+services:
+  paysky.api:
+    image: ${DOCKER_REGISTRY-}payskyapi
+    build:
+      context: .
+      dockerfile: PaySky.Api/Dockerfile
+    depends_on:
+      - paysky.db
+    ports:
+      - "8082:80"
+      - "8083:443"
+    networks:
+      - app-network
+
+  paysky.db:
+    image: mcr.microsoft.com/mssql/server:2017-latest
+    container_name: payskydb
+    environment:
+      - SA_PASSWORD=SwN12345678
+      - ACCEPT_EULA=Y
+    ports:
+      - "15432:1433"
+    networks:
+      - app-network
+    volumes:
+      - sqlserver_data:/var/opt/mssql
+
+networks:
+  app-network:
+
+volumes:
+  sqlserver_data:

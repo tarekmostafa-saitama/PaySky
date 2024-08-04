@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaySky.Api", "PaySky.Api\PaySky.Api.csproj", "{F0A88E77-E287-43C9-BDD2-59850AF9636E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaySky.Domain", "PaySky.Domain\PaySky.Domain.csproj", "{43AE5038-93D0-4B35-9BE8-8484ACFD711D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaySky.Application", "PaySky.Application\PaySky.Application.csproj", "{5B473104-4A7E-412D-9CD2-47248E0D6106}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaySky.Infrastructure", "PaySky.Infrastructure\PaySky.Infrastructure.csproj", "{D379D2BB-53EE-4A38-87B7-896B186EF03E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaySky.Shared", "PaySky.Shared\PaySky.Shared.csproj", "{D2B1F17A-0B15-4693-BF4F-3547C57F1A77}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{68A35232-23B7-4E89-8EA8-A621F9E54FDB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F0A88E77-E287-43C9-BDD2-59850AF9636E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0A88E77-E287-43C9-BDD2-59850AF9636E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0A88E77-E287-43C9-BDD2-59850AF9636E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0A88E77-E287-43C9-BDD2-59850AF9636E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43AE5038-93D0-4B35-9BE8-8484ACFD711D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43AE5038-93D0-4B35-9BE8-8484ACFD711D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43AE5038-93D0-4B35-9BE8-8484ACFD711D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43AE5038-93D0-4B35-9BE8-8484ACFD711D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B473104-4A7E-412D-9CD2-47248E0D6106}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B473104-4A7E-412D-9CD2-47248E0D6106}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B473104-4A7E-412D-9CD2-47248E0D6106}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B473104-4A7E-412D-9CD2-47248E0D6106}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D379D2BB-53EE-4A38-87B7-896B186EF03E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D379D2BB-53EE-4A38-87B7-896B186EF03E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D379D2BB-53EE-4A38-87B7-896B186EF03E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D379D2BB-53EE-4A38-87B7-896B186EF03E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2B1F17A-0B15-4693-BF4F-3547C57F1A77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2B1F17A-0B15-4693-BF4F-3547C57F1A77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2B1F17A-0B15-4693-BF4F-3547C57F1A77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2B1F17A-0B15-4693-BF4F-3547C57F1A77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68A35232-23B7-4E89-8EA8-A621F9E54FDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68A35232-23B7-4E89-8EA8-A621F9E54FDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68A35232-23B7-4E89-8EA8-A621F9E54FDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68A35232-23B7-4E89-8EA8-A621F9E54FDB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ABA40AAF-A0B7-4056-9C00-F55ADBD91259}
+	EndGlobalSection
+EndGlobal
